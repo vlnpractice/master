@@ -1,0 +1,4 @@
+# ignore sftp/ftp configuration file in sublime text
+sftp-config.json
+
+# ignore large files due to Github max file size of 100 megabytes
