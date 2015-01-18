@@ -1,0 +1,12 @@
+
+<table border=0 cellpadding=0 cellspacing=0 width="98%" height="42">
+<tr>
+<td align="left" nowrap>Classifieds in category: <b>#%total%#</b></td>
+#%hide_pages_begin%#<td align="right" nowrap>Pages: #%pages_list%#&nbsp;&nbsp;&nbsp;</td>#%hide_pages_end%#
+</tr>
+<tr>
+<td align="left" nowrap colspan="2">Sort by: #%sortby_options%#&nbsp;&nbsp;
+<a rel="nofollow" #%link_asc%#><img border="0" src="#%site_url%#/images/arrow_up.gif"></a>&nbsp;<a rel="nofollow" #%link_desc%#><img border="0" src="#%site_url%#/images/arrow_down.gif"></a>
+</td>
+</tr>
+</table>

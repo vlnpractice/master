@@ -1,0 +1,7 @@
+Subject: Your Classified Ad
+
+Thank you for your submission. Please click to this link to confirm your ad:
+#%confirmation_link%#
+
+Title: #%title%#
+Description: #%description%#

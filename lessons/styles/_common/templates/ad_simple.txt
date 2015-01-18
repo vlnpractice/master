@@ -1,0 +1,8 @@
+
+<td valign="top" align="center" width="20%" class="table_item_simple">
+<div style="overflow:hidden; width:160px;">
+<a href="#%item_details_url%#"><img alt="#%image_description%#" src="#%picture%#" border="0" width="120" height="90"></a>
+<a href="#%item_details_url%#"><h2>#%title%#</h2></a>
+#%description%#
+</div>
+</td>

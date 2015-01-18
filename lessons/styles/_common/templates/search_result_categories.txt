@@ -1,0 +1,5 @@
+<div class="common_div_title">CATEGORIES</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="5" cellspacing="0">
+#%categories%#
+</table>
+</div>

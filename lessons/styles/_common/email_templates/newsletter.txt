@@ -1,0 +1,12 @@
+Dear #%name%#,
+
+Here is a list of new classifieds on our site.
+
+#%classifieds%#
+
+Regards
+
+Webmaster
+
+To unsubscribe or to modify your profile please go to #%unsubscribe%#
+

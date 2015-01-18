@@ -1,0 +1,91 @@
+
+#%head%#
+
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" border=0 style="table-layout:fixed;">
+<tr>
+<td style="width:250px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="250" height="1"></td>
+<td style="width:750px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="750" height="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" style="width:250px;">
+
+#%in1%#
+
+</td>
+<td class="cell_middle">
+<div class="common_div_title">User #%nick%#</div>
+<div class="common_div"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td align="center" valign="top">
+
+<a name="details_menu"></a>
+<table cellspacing="0" cellpadding="0" width="100%" border="0"><tr><td align="left" valign="top">
+<div class="item_detail_menu">
+<ul>
+<li><a href="javascript:show_submenu('details_submenu_1');">User info</a></li>
+<li><a href="javascript:show_submenu('details_submenu_2');">Pictures</a></li>
+<li><a href="javascript:show_submenu('details_submenu_3');">Classifieds</a></li>
+<li><a href="javascript:show_submenu('details_submenu_4');">Contact</a></li>
+</ul>
+</div>
+</td></tr></table>
+
+<DIV class="menu_container">
+
+<div id="details_submenu_1" style="display:block;">
+<div class="common_div1"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td align="center">
+<table cellspacing="0" cellpadding="2" width="100%" border="0" class="inside_table">
+<tr>
+<td nowrap align="left" valign="top" width="200">Member since </td>
+<td nowrap align="left" valign="top">#%joined%#</td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top">Article </td>
+<td align="left" valign="top">#%detail%#</td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top">Site </td>
+<td align="left" valign="top"><a href="#%url%#" target="_blank">#%site_title%#</a>&nbsp;</td>
+</tr>
+</table>
+</td></tr></table></div>
+</div>
+
+<div id="details_submenu_2" style="display:none;">
+<div class="common_div1"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td align="center">
+#%pictures_gallery%#
+</td></tr></table></div>
+</div>
+
+<div id="details_submenu_3" style="display:none;">
+<div class="common_div1"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="left">
+<table cellspacing="0" cellpadding="0" border=0 width="100%" class="table_items">#%classifieds%#</table>
+</td></tr>
+</table></div>
+</div>
+
+<div id="details_submenu_4" style="display:none;">
+<div id="contact_boxu#%n%#">
+#%contact_box%#
+</div>
+</div>
+
+</td></tr></table>
+</div>
+
+</td>
+
+</tr></table>
+
+
+
+
+

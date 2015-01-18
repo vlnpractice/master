@@ -1,0 +1,4 @@
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Current file </td>
+<td align="left" valign="top">#%current_file%#<br><input type="checkbox" name="delete_file[]" value="#%file_n%#"> Delete this file </td>
+</tr>

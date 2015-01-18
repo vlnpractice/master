@@ -1,0 +1,4 @@
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Ad type </td>
+<td nowrap align="left"><select name="offer_wanted" class="select10"><option value="offer"#%offer%#>Offer</option><option value="wanted"#%wanted%#>Wanted</option></select></td>
+</tr>

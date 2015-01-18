@@ -1,0 +1,7 @@
+<tr>
+<td nowrap align="left" valign="top" colspan="2">#%description%# </td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" colspan="2">#%html_editor%#</td>
+</tr>
+

@@ -1,0 +1,31 @@
+#%info%#
+
+<form method="post" id="user_login_form" action="javascript:parse_ajax_request(document.getElementById('user_login_form'),'#%site_url%#/user.php','user_login_form');">
+<input type="hidden" name="action" value="logged_in">
+<table cellspacing="0" cellpadding="2" width="240">
+<tr>
+<td align="left" style="vertical-align:bottom;">Username </td><td align="left"><input class="field10" maxLength="15" style="width:110px" name="username" value="#%username%#"></td>
+</tr>
+<tr>
+<td align="left" style="vertical-align:bottom;">Password </td><td align="left"><input class="field10" type="password" maxLength="15" style="width:110px" name="password" value="#%password%#"></td>
+</tr>
+<tr style="display:#%display_captcha_tr%#;">
+<td align="left" style="vertical-align:bottom;">Your code </td><td align="left"><img alt="" src="#%site_url%#/image_control.php?action=get_image&x=#%captcha_code%#"></td>
+</tr>
+<tr style="display:#%display_captcha_tr%#;">
+<td align="left" style="vertical-align:bottom;">Enter the code </td><td align="left"><input maxlength="10" style="width:110px" name="image_control" class="field10"></td>
+</tr>
+<tr>
+<td align="left" style="vertical-align:bottom;" colspan=2>Remember me <input type="checkbox" value="1" name="remember_me"></td>
+</tr>
+<tr>
+<td align="center" colspan=2><input type="submit" value="Submit" name="B1" class="button10" style="height:28px;"></td>
+</tr>
+<tr>
+<td align="center" valign="bottom" colspan="2"><script src="#%site_url%#/facebook.php"></script></td>
+</tr>
+<tr>
+<td align="center" valign="bottom" colspan="2"><a href="#%site_url%#/user.php" style="font-size:15px;">Join Now</a></td>
+</tr>
+</table>
+</form>

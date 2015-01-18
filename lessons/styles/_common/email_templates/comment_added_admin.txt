@@ -1,0 +1,9 @@
+Subject: Comment Submitted
+
+A comment has been submitted to your glassifieds site. If you want review this comment, you have to go to #%site_url%#/administration/
+Ad number: #%n%#
+Comment: #%comment%#
+URL: #%url%#
+Name: #%name%#
+Email: #%email%#
+IP: #%ip%#

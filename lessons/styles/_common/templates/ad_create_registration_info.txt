@@ -1,0 +1,45 @@
+<div class="common_div_title">You Are Not Logged In</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+
+<form method="post" action="#%site_url%#/user.php">
+<input type="hidden" name="action" value="user_login">
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="inside_table">
+<tr><td align="center" colspan="2">If you are a registered user, please use this form to log in.<br>
+<tr>
+<td align="left">Email </td>
+<td align="left"><input class="field10" name="email" value="" style="width:150px"></td>
+</tr>
+<tr>
+<td align="left">Password </td>
+<td align="left"><input class="field10" type="password" maxlength="15" name="password" value="" style="width:150px"></td>
+</tr>
+<tr>
+<td align="left" nowrap>Remember me </td>
+<td align="left"><input type="checkbox" value="1" name="remember_me"></td>
+</tr>
+#%field_captcha_test%#
+<tr>
+<td align="center" colSpan="2">
+<input type="submit" value="Submit" name="B1" class="button10">
+</td></tr>
+</table>
+</form>
+
+</td></tr>
+<tr><td align="center">
+
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="inside_table">
+<tr><td align="left">
+If you are not registered, you can create a classified ad by the form below but we recommend to register first. The registration is FREE. As a registered user you receive these advantages:<br>
+<ul>
+<li>You can add extra features to your classified ads. You can mark your classifieds by Bold font, Highlight them, add more pictures and files, add the classifieds to our Home page etc.;</li>
+<li>Your contact info can be entered automatically to the form to enter new classified ads;</li>
+<li>Your can edit your classified ads later on;</li>
+<li>Registered users can choose their own default style of our pages.</li>
+<li><a href="#%site_url%#/user.php">Click here to register for free</a></li>
+</ul>
+</td></tr></table>
+
+</td></tr></table>
+</div>

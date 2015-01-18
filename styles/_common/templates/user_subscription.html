@@ -1,0 +1,63 @@
+#%head%#
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+<tr>
+<td width="230" style="width:230px;height:1px;padding:0px;margin:0px;line-height:1px;" class="left_column"><img border="0" src="#%site_url%#/images/blank.gif" width="230" height="1"></td>
+<td width="770" style="height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="50" height="1"></td>
+
+</tr>
+<tr>
+<td class="left_column">
+
+#%in1%#
+
+
+</td>
+<td class="cell_middle">
+
+#%in3%#
+
+#%info%#
+
+<div class="common_div_main">
+<div class="common_div_title">Subscription Info</div>
+<div class="common_div_content"><table border="0" width="100%" cellpadding="5" cellspacing="0" class="inside_table">
+
+#%hide_order_begin%#
+<tr><td align="left">
+You currently don't have a paid membership. To order it please choose one of these options
+</td></tr>
+<tr><td align="left">
+<form action="#%site_url%#/user.php" method="post">
+<input type="hidden" name="action" value="user_order">
+#%order_options%#
+Discount code: <input class="field10" style="width:100px;" name="discount">
+<br>
+<input type="submit" value="Submit" name="B1" class="button10">
+</form>
+</td></tr>
+#%hide_order_end%#
+
+#%hide_subscription_begin%#
+<tr><td align="left">
+You currently use paid membership. The current period is valid until #%paid_until%#.
+</td></tr>
+#%hide_subscription_end%#
+
+</table></div>
+</div>
+
+</td>
+
+<td class="right_column">
+
+#%in2%#
+
+</td></tr></table>
+
+

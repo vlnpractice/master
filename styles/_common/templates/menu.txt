@@ -1,0 +1,270 @@
+<ul id="top_menu">
+
+<li><a href="#%site_url%#/"><span><style="margin-bottom:-2px;" border="0"></span>&nbsp;<b>Home</a></li>
+
+
+
+<li><a href="http://www.violinpractice.com/Violin-Articles-5/about-this-site.html"><span><style="margin-bottom:-2px;" border="0"></span>&nbsp;About</a>
+
+	<ul>
+
+		<li><a href="http://www.violinpractice.com/Violin-Articles-5/about-this-site.html">This Site</a></li>
+
+		<li><a href="http://www.violinpractice.com/Violin-Articles-13/rebecca-henry.html">Rebecca Henry</a></li>
+
+		<li><a href="http://www.violinpractice.com/Violin-Articles-14/phyllis-freeman.html">Phyllis Freeman</a></li>
+
+	</ul>
+
+</li>
+
+
+
+
+
+<li><a href="http://www.violinpractice.com/Video/lets-practice/"><span><style="margin-bottom:-2px;" border="0"></span>&nbsp;VP Method</a>
+
+<ul>
+
+         <li><a href=" 	http://www.violinpractice.com/Violin-Articles-12/about-violinpractice-method.html">About VP Method</a></li>
+
+         
+
+	<li><a href="http://www.violinpractice.com/Video/guided-practice/by-level/">VP Foundation Levels</a>
+
+        <ul>
+
+		<li><a href="http://www.violinpractice.com/Video/guided-practice/by-level/stage-a/">A1: Beginning to Twinkle</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-foundations/level-a2-folk-songs-in-a-d/">A2: Folk Songs in A & D</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-foundations/level-a3-g-major-low-2nd-finger/">A3: Low 2 & G major</a></li>
+
+        <li><a href=" 	http://www.violinpractice.com/Video/violinpractice-method/vp-foundations/level-a4-low-1-high-3-finger-patterns/">A4: Low 1 & High 3 Patterns</a></li>
+
+
+
+	         </ul>
+
+	</li>
+
+	<li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/">VP Intermediate Stages</a>
+
+            <ul>
+
+        </li>
+
+           
+
+<li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-b1-intro-to-3rd-position/">B1: Intro to 3rd position</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-b2-early-concertinos/">B2: Early Concertinos</a></li>
+
+        <li><a href=" 	http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-b3-seitz-and-styles/">B3: Seitz and Styles</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-b4-kuchler-more-3rd-position/">B4: Kuchler & fluid 3rd position</a></li>
+
+		<li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-c1-into-to-spiccato-and-vivaldi/">C1: Intro to Spiccato & Vivaldi</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-c2-dancla-and-lyricism/">C2: Dancla & Lyricism</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-c3-bohm-and-facility/">C3: Bohm and Facility</a></li>
+
+        <li><a href=" 	http://www.violinpractice.com/Video/violinpractice-method/vp-developing/level-c4-vivaldi-g-minor-concerto/">C4: Vivaldi G Minor</a></li>
+
+   
+
+	  </ul>
+
+	</li>
+
+	<li><a href="http://www.violinpractice.com/Video/violinpractice-method/vp-advanced-stages/">VP Advanced Stages</a></li>
+
+          </ul>
+
+</li>
+
+
+
+
+
+<li><a href="http://www.violinpractice.com/Video/instructional-video/"><span><style="margin-bottom:-2px;" border="0"></span>&nbsp;VP Pedagogy</a>
+
+<ul>
+
+	<li><a href="http://www.violinpractice.com/Violin-Articles-11/about-violinpractice-pedagogy.html">About VP Pedagogy</a></li>
+
+	<li><a href="http://www.violinpractice.com/Video/instructional-video/by-topic/">By Topic</a>
+
+        <ul>
+
+		<li><a href="http://www.violinpractice.com/Video/violinpractice-pedagogy/by-topic/basic-set-up/">Basic Set Up</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violin-pedagogy/by-topic/left-hand/">Left Hand</a></li>
+
+        <li><a href=" 	http://www.violinpractice.com/Video/violin-pedagogy/by-topic/bow-arm/">Bow Arm</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-pedagogy/by-topic/musical-integration/">Musical Integration</a></li>
+
+		<li><a href=" 	http://www.violinpractice.com/Video/violinpractice-pedagogy/by-topic/scales/">Scales</a></li>
+
+		</ul>
+
+	</li>
+
+	<li><a href="http://www.violinpractice.com/Video/violinpractice-pedagogy/by-repertoire/">By Repertoire</a>
+
+		<ul>
+
+		<li><a href="http://www.violinpractice.com/Video/violinpractice-pedagogy/by-repertoire/composers-a-k/">Composers A-K</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-pedagogy/by-repertoire/composers-l-s/">Composers L-S</a></li>
+
+        <li><a href="http://www.violinpractice.com/Video/violinpractice-pedagogy/by-repertoire/composers-t-z/">Composers T-Z</a></li>
+
+        <li><a href=" 	http://www.violinpractice.com/Video/violinpractice-pedagogy/by-repertoire/etudes/">Etudes</a></li>
+
+		</ul>
+
+	</li>
+
+<li><a href="#%site_url%#/index1.php?what=n">Print Materials</a>
+
+	<ul>
+
+		<li><a href="http://www.violinpractice.com/Print-Out/repertoire-lists/">Repertoire Lists</a></li>
+
+                <li><a href=" 	http://www.violinpractice.com/Print-Out/warm-up-exercises/">Warm Up Exercises</a></li>
+
+                <li><a href="http://www.violinpractice.com/Print-Out/advanced-practice-exercises/">Repertoire Practice Pages</a></li>
+
+                <li><a href="http://www.violinpractice.com/Print-Out/scales/">Scales</a></li>
+
+		<li><a href="http://www.violinpractice.com/Print-Out/photos/">Photos</a></li>
+
+		<li><a href="http://www.violinpractice.com/Print-Out/practice-records/">Practice Charts</a></li>
+
+	</ul>
+
+	</li>
+
+
+
+</ul>
+
+
+
+<li><a href="#%site_url%#/"><span><style="margin-bottom:-2px;" border="0"></span>&nbsp;Free Resources</a>
+
+<ul>
+
+	<li><a href="http://www.violinpractice.com/index1.php?what=v">Video</a>
+
+	<ul>
+
+		<li><a href="http://www.violinpractice.com/Video/performances/">Performances</a>
+
+                <ul>
+
+                         <li><a href="http://www.violinpractice.com/Video/performances/folk-songs/">Folk Songs</a></li>
+
+                         <li><a href="http://www.violinpractice.com/Video/performances/by-composer/">Sorted by Composer</a></li>
+           <li><a href="http://www.violinpractice.com/Video/performances/violin-choir/">Violin Choirs</a></li>
+
+                     </ul>
+
+		     </li>
+
+		<li><a href="http://www.violinpractice.com/Video/masterclasses/">Masterclasses</a></li>
+
+   	 	<li><a href="http://www.violinpractice.com/Video/workshop-lectures/">Lectures</a></li>
+
+   		<li><a href="http://www.violinpractice.com/Video/about-practicing/">About Practicing</a>
+
+   		<ul>
+
+			<li><a href=" 	http://www.violinpractice.com/Video/practice-stories/">Stories</a></li>
+
+			<li><a href="http://www.violinpractice.com/Video/about-practicing/practice-tips/">Tips</a></li>
+
+		</ul>
+
+		</li>
+
+	    
+
+	</ul>
+
+	</li>
+
+	<li><a href="http://www.violinpractice.com/index1.php?what=a">Articles</a></li>
+
+         <li><a href="http://www.violinpractice.com/Print-Out/free-print-outs/">Print Materials</a></li>
+
+	<li><a href="http://www.violinpractice.com/index1.php?what=l">Links</a>
+
+<ul>
+
+		<li><a href="http://www.violinpractice.com/Links/vp-related-links/">VP Related Links</a></li>
+
+       
+
+        <li><a href="http://www.violinpractice.com/Links/educational-resources/">Educational Resources</a></li>
+
+
+		</ul>
+
+	</li>
+
+</ul>
+
+	
+
+	
+
+
+
+	<li><a href="http://www.violinpractice.com/Violin-Articles-19/memberships.html">Memberships</a>
+
+	<ul>
+
+		
+
+	</ul>
+
+	</li>
+
+
+
+<li><a href="http://www.violinpractice.com/lessons/category-4-0/store.html"><span><style="margin-bottom:-2px;" border="0"></span>&nbsp;Marketplace</a>
+
+<ul>
+
+        <li><a href="http://www.violinpractice.com/lessons/category-26-0/services.html">VP Services</a></li>
+
+        <li><a href="http://www.violinpractice.com/lessons/category-25-0/business-directory.html">Directories</a></li>
+
+	<li><a href=" 	http://www.violinpractice.com/lessons/category-6-0/store/sheet-music.html">Sheet Music</a></li>
+
+	<li><a href="http://www.violinpractice.com/lessons/category-8-0/store/recordings.html">Recordings</a></li>
+
+
+
+	<li><a href="http://www.violinpractice.com/lessons/category-9-0/store/products.html">Products</a>
+
+	
+
+	</ul>
+
+	</li>
+
+</ul>
+
+</li>
+
+
+
+
+
+</ul>
+

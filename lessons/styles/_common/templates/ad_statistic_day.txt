@@ -1,0 +1,4 @@
+<tr>
+<td nowrap align="left" class="cell_embosed1"><span class="text10">#%day%#</span></td>
+<td nowrap align="center" class="cell_embosed10">#%i_detail%#</td>
+</tr>

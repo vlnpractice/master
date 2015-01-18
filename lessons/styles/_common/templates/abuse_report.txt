@@ -1,0 +1,32 @@
+
+#%info%#
+
+<div id="report_wait#%n%#" name="report_wait#%n%#"></div>
+
+<form method="post" id="report_form#%n%#" name="report_form#%n%#" action="javascript:parse_ajax_request(document.getElementById('report_form#%n%#'),'#%site_url%#/report_abuse.php','report_box#%n%#');">
+<input type="hidden" name="n" value="#%n%#">
+<input type="hidden" name="hide_cancel" value="#%hide_cancel%#">
+
+<div class="common_div1"><table border="0" width="100%" cellpadding="5" cellspacing="0" class="inside_table">
+<tr><td align="left" colspan="2"><span class="text_bold">Abuse Report</td></tr>
+<tr><td align="left" colspan="2">Please enter your message and data to this form or simply click the submit button below.<br /></td></tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Your message </td>
+<td align="left"><textarea class="field10" name="comment" rows="15" style="width:600px;height:250px;">#%comment%#</textarea></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Your name </td>
+<td align="left"><input class="field10" maxlength="255" style="width:600px;" name="name" value="#%name%#"></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Email </td>
+<td align="left"><input class="field10" maxlength="255" style="width:600px;" name="email" value="#%email%#"></td>
+</tr>
+#%field_captcha_test%#
+<tr>
+<td align="center" colspan=2><input type="submit" value="Submit" name="B1" class="button10" onclick="show_waiting('report_wait#%n%#');">#%hide_cancel_begin%#&nbsp;<input type="reset" value="Cancel" onclick="show_hide_div_id(0,'report_box#%n%#')" class="button10">#%hide_cancel_end%#</td>
+</tr>
+</table>
+</form>
+
+</div>

@@ -1,0 +1,43 @@
+
+  </td></tr></table>
+  </div>
+</div>
+<!-- /end -->
+
+<!-- Footer component -->
+<div class="vp-Footer">
+  <table width="1080" align="center">
+  <tr>
+  <td align="left" valign="middle">
+  <a href="#%site_url%#/" style="padding-left:0px;">Home</a>
+  |
+  <a href="http://www.violinpractice.com/Violin-Articles-12/about-violinpractice-method.html">Method</a>
+  |
+  <a href="http://www.violinpractice.com/Violin-Articles-11/about-violinpractice-pedagogy.html">Pedagogy</a>
+  |
+  <a href="http://www.violinpractice.com/lessons/category-4-0/store.html">Marketplace</a>
+  |
+  <a href="http://www.violinpractice.com/Violin-Articles-5/about-this-site.html">About</a>
+  |
+  <a href="#" onclick="check_show_hide_div('contact_box0');"">Contact us</a>
+  <br>
+  <br>
+  Copyright &copy; #%site_name%# #%year%#
+  |
+  <a href="#%site_url%#/page/terms.html">Terms of Service</a>
+  |
+  <a href="#%site_url%#/page/privacy_policy.html">Privacy Policy</a>
+  </td>
+  <td align="right" valign="middle" style="vertical-align:middle;">
+  <div style="display:inline;margin-bottom:10px;">Connect with us: </div>
+  <div style="display:inline;margin-bottom:10px;">
+  <a href="https://www.facebook.com/violinpractice" style="padding:3px;"><img border="0" src="#%site_url%#/images/facebook.png" width="32" style="margin-bottom:-10px;"></a>
+  <a href="https://twitter.com/ViolinPractice" style="padding:3px;"><img border="0" src="#%site_url%#/images/twitter.png" width="32" style="margin-bottom:-10px;"></a>
+  <a href="http://www.linkedin.com/company/violinpractice-com" style="padding:3px;"><img border="0" src="#%site_url%#/images/linkedin.png" width="32" style="margin-bottom:-10px;"></a>
+  </div>
+  </td>
+  </tr></table>
+</div>
+<!-- /end -->
+
+</body></html>

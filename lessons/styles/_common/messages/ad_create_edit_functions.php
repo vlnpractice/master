@@ -1,0 +1,49 @@
+<?PHP
+
+$m[reg_only] = 'Only registered users can submit ads';
+$m[no_right] = 'You do not have permission to submit ads';
+$m[w_cat] = 'You cannot submit ad to category';
+$m[w_area] = 'You cannot submit ad to area ';
+$m[not_found] = 'Your ad can not be found. Please try again.';
+$m[pass_sent] = 'Your password has been sent to email';
+$m[wrong_pass] = 'Wrong password. Please try again.';
+$m[none] = 'None';
+$m[url] = 'URL';
+$m[ad_n] = 'Ad Number';
+$m[pub_phone1] = 'Public phone 1';
+$m[pub_phone2] = 'Public phone 2';
+$m[keywords] = 'Keywords';
+$m[separated_commas] = 'Separated by commas';
+$m[address] = 'Address to show on a map';
+$m[address_unkown] = 'Address doesn&#039;t exist';
+$m[youtube_video] = 'Youtube video URL';
+$m[upload_picture] = 'Upload picture #';
+$m[upload_file] = 'Upload file #';
+$m[upload_video] = 'Upload video #';
+$m[allowed_extensions] = 'Allowed extensions:';
+$m[delete_picture] = 'Delete this picture';
+$m[delete_file] = 'Delete this file';
+$m[delete_video] = 'Delete this video';
+$m[active_by] = 'Currently active until';
+$m[m_field] = 'Missing field:';
+$m[should_be] = 'should be ';
+$m[not_allowed_format] = 'Not allowed file format:';
+$m[max_file_size_1] = 'The file';
+$m[max_file_size_2] = 'is too large. The file is';
+$m[max_file_size_3] = 'bytes, maximum allowed is';
+$m[max_file_size_4] = 'bytes';
+$m[edited_queue] = 'Entered changes have been saved. Your ad will be reviewed by an admin as soon as possible.';
+$m[edited_islive] = 'Your classified ad has been edited and the changes are now visible on our pages.';
+$m[new_queue] = 'Your classified has been saved and is currently in the queue. An admin will review it as soon as possible.';
+$m[new_islive] = 'This classified ad has been added to our database and is visible on our pages.';
+$m[dont_right_add] = 'You don&#039;t have the right to add classified ads.';
+$m[ad_created_queue] = 'Your classified ad has been created. An admin will review it as soon as possible. You can preview it below.';
+$m[ad_created_waiting] = 'Your classified ad has been created. Please check your email for a confirmation link. You can preview your ad below.';
+$m[ad_created_user] = 'Your classified ad has been added to our database. Now you can add to it extra features by the form below.';
+$m[ad_created_user1] = 'Your classified ad has been added to our database. The ad is currently not visible. Please purchase days for it, you also can add extra features by the form below.';
+$m[incorrect_confirm_url] = 'Incorrect confirmation URL. Please try again.';
+$m[ad_confirmed] = 'Your classified ad has been confirmed.';
+$m[ad_has_been_enabled] = 'Ad has been enabled.';
+$m[ad_deleted] = 'Selected Classified Ad Has Been Deleted';
+
+?>

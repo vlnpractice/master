@@ -1,0 +1,3 @@
+<tr><td align="left" class="table_left_right_small_cell">
+<img alt="" src="#%site_url%#/images/arrow.gif">&nbsp;<a target="_top" class="link10" href="#%url%#">#%title%#</a><br />
+</td></tr>

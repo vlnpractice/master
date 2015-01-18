@@ -1,0 +1,10 @@
+<tr>
+<td align="left" valign="top"><a name="categories_tree_top"></a>Categories <br>Select maximum #%max%# categories<br><span class="text10">It's recommended to select a category in the last level. Then your ad will appear in the selected category and all its parent categories.<br></span></td>
+<td align="left" valign="top"><input type="hidden" name="c1" value="#%c1%#">
+<ul id="categories_tree" class="tree">
+#%categories_tree%#
+</ul>
+<a href="#" onclick="expandAll('categories_tree');return false">Expand all</a>
+<a href="#" onclick="collapseAll('categories_tree');return false">Collapse all</a>
+</td>
+</tr>

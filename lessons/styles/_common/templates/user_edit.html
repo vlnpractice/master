@@ -1,0 +1,61 @@
+
+#%head%#
+
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" border=0 style="table-layout:fixed;">
+<tr>
+<td style="width:250px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="250" height="1"></td>
+<td style="width:750px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="750" height="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" style="width:250px;">
+
+#%in1%#
+
+</td>
+<td class="cell_middle">
+#%info%#
+
+<form ENCTYPE="multipart/form-data" action="#%site_url%#/user.php" method="post">
+<input type="hidden" name="action" value="user_edited">
+
+<div class="common_div_title">Edit Your Profile</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="inside_table">
+#%field_email%#
+<tr>
+<td nowrap align="left">Password </td>
+<td nowrap align="left"><input class="field10" maxlength="15" name="password" value="" style="width:150px"> <span class="text10">Let blank to keep current password.</span></td>
+</tr>
+#%field_name%#
+#%field_nick%#
+#%field_company%#
+#%field_address1%#
+#%field_address2%#
+#%field_address3%#
+#%field_country%#
+#%field_phone1%#
+#%field_phone2%#
+#%field_site_info%#
+#%field_detail%#
+#%field_pictures%#
+#%field_styles%#
+#%field_newsletters%#
+<tr><td align="center" colspan=3><input type="submit" value="Submit" name="B1" class="button10"></td></tr>
+</table>
+</td></tr></table>
+</div>
+
+</form>
+
+
+</td>
+
+</tr></table>
+

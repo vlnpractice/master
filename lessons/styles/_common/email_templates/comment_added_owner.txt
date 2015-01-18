@@ -1,0 +1,5 @@
+Subject: Comment Submitted
+
+A comment about your classified has been submitted.
+Comment: #%comment%#
+Your classified URL: #%url%#

@@ -1,0 +1,36 @@
+.image_preview_out {
+	position:relative;
+}
+.image_preview_in {
+	display:none;
+	position:absolute;
+	top:-200px;
+	left:-150px;
+	z-index:100;
+}
+.outer-center { 
+    float: right; 
+    right: 50%; 
+    position: relative; 
+    z-index:1;
+} 
+.inner-center { 
+    float: right; 
+    right: -50%; 
+    position: relative; 
+    font-size:30px;
+    z-index:1;
+} 
+.clear { 
+    clear: both; 
+} 
+#scrollbar2 { width: 730px; margin: 20px 0 10px; }
+#scrollbar2 .viewport { width: 710px; height: 250px; overflow: hidden; position: relative; }
+#scrollbar2 .overview { list-style: none; width: 730px; padding: 0; margin: 0; position: absolute; left: 0; top: 0;  }
+#scrollbar2 .scrollbar{ background: transparent url(bg-scrollbar-track-x.png) no-repeat 0 0; position: relative; margin: 0 0 5px; clear: both; height: 15px; }
+#scrollbar2 .track { background: transparent url(bg-scrollbar-trackend-x.png) no-repeat 100% 0; width: 100%; height:15px; position: relative; }
+#scrollbar2 .thumb { background: transparent url(bg-scrollbar-thumb-x.png) no-repeat 90% 50%; height: 25px; cursor: pointer; overflow: hidden; position: absolute; left: 0; top: -5px; }
+#scrollbar2 .thumb .end{ background: transparent url(bg-scrollbar-thumb-x.png) no-repeat 10 50%; overflow: hidden; height: 25px; width: 5px;}
+#scrollbar2 .disable { display: none; }
+#scrollbar2 .td { vertical-align:top; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

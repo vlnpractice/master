@@ -1,0 +1,6 @@
+<tr>
+<td align="left">&nbsp;#%icon%#</td>
+<td align="left">&nbsp;<a href="#%url%#">#%description%#</a></td>
+<td align="left">File extension: #%extension%#, file size: #%size%# bytes</td>
+</tr>
+

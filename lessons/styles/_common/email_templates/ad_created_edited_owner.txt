@@ -1,0 +1,16 @@
+Subject: Your Classified Ad
+
+Thank you for your submission. #%owner_info%#
+
+Number: #%n%#
+Title: #%title%#
+Description: #%description%#
+Detailed entry: #%detail%#
+Ad type: #%ad_type%#
+Name: #%name%#
+Email: #%email%#
+Public phone 1: #%pub_phone1%#
+Public phone 2: #%pub_phone2%#
+URL: #%url%#
+Category: #%categories_titles%#
+Area: #%areas_titles%#

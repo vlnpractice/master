@@ -1,0 +1,5 @@
+<td align="left" valign="top" width="#%width%#%">
+<img alt="" src="#%folder_icon%#">&nbsp;<a href="#%url%#"><b>#%name%#</b></a>
+<br />
+<span class="text10">#%subcategories%#<br /></span>
+</td>

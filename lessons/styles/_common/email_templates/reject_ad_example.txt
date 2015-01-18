@@ -1,0 +1,6 @@
+Subject: Your Classified Ad
+
+Your classified ad has been rejected for the following reason:
+Wrong content for our site.
+Title: #%title%#
+Description: #%description%#

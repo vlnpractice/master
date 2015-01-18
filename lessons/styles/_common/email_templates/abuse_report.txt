@@ -1,0 +1,10 @@
+Subject: Abuse Report Submitted
+
+An abuse report has been submitted. If you want review this report, you have to go to #%site_url%#/administration/
+Ad number: #%ad_n%#
+Ad title: #%ad_title%#
+Ad URL: #%ad_url%#
+Comment: #%comment%#
+Email: #%email%#
+IP: #%ip%#
+Report number: #%report_n%#

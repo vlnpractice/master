@@ -1,0 +1,37 @@
+
+#%info%#
+
+<div id="tell_friend_wait#%what%##%n%#" name="tell_friend_wait#%what%##%n%#"></div>
+
+<form method="post" id="tell_friend_form#%what%##%n%#" name="tell_friend_form#%what%##%n%#" action="javascript:parse_ajax_request(document.getElementById('tell_friend_form#%what%##%n%#'),'#%site_url%#/tell_friend.php','tell_friend_box#%what%##%n%#');">
+<input type="hidden" name="what" value="#%what%#">
+<input type="hidden" name="n" value="#%n%#">
+<input type="hidden" name="hide_cancel" value="#%hide_cancel%#">
+
+<div class="common_div1"><table border="0" width="100%" cellpadding="5" cellspacing="0" class="inside_table">
+<tr><td align="left" colspan="2"><span class="text_bold">Tell A Friend</span></td></tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Message </td>
+<td align="left"><textarea class="field10" name="comment" rows="15" style="width:550px;height:250px;">I want to let you know about a great classified ad I have just found. This classified may be found at #%url%#. Title of the classified: #%title%#</textarea></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Your Name </td>
+<td align="left" valign="top"><input class="field10" maxlength="255" style="width:550px;" name="name" value="#%name%#"></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Email </td>
+<td align="left" valign="top"><input class="field10" maxlength="255" style="width:550px;"  name="email" value="#%email%#"></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Friend's Email </td>
+<td align="left" valign="top"><input class="field10" maxlength="255" style="width:550px;"  name="friend_email" value="#%friend_email%#"></td>
+</tr>
+#%field_captcha_test%#
+<tr>
+ <td align="center" colspan=2><input type="submit" value="Submit" name="B1" class="button10" onclick="show_waiting('tell_friend_wait#%what%##%n%#');">#%hide_cancel_begin%#&nbsp;<input type="reset" value="Cancel" onclick="show_hide_div_id(0,'tell_friend_box#%what%##%n%#')" class="button10">#%hide_cancel_end%#</td>
+</tr>
+</table>
+</div>
+
+</form>
+

@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="#%site_url%#/files/context_menu.css" type="text/css">
+<script type="text/javascript">
+var imageFolder = '#%site_url%#/images/';
+</script>
+<script type="text/javascript" src="#%site_url%#/files/context-menu-folder-tree.js"></script>
+<script type="text/javascript" src="#%site_url%#/files/context-menu.js"></script>
+
+
+
+<form ENCTYPE="multipart/form-data" action="#%site_url%#/user.php" method="post">
+<input type="hidden" name="action" value="#%action%#">
+<input type="hidden" name="n" value="#%n%#">
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="inside_table">
+#%hide_ad_n_begin%#
+<tr>
+<td nowrap align="left">Ad number </td>
+<td align="left">#%n%#</td>
+</tr>
+#%hide_ad_n_end%#
+#%field_title%#
+#%field_description%#
+#%field_detail%#
+#%field_url%#
+#%field_name%#
+#%field_email%#
+#%field_phone1%#
+#%field_phone2%#
+#%field_address%#
+#%field_youtube_video%#
+#%field_keywords%#
+#%field_offer_wanted%#
+#%field_price%#
+#%field_categories%#
+#%field_areas%#
+#%field_user_defined%#
+#%field_pictures%#
+#%field_files%#
+#%hide_paypal_disable_begin%#
+<tr>
+<td align="left" valign="top">Disable this ad when someone clicked to paypal button</td>
+<td align="left" valign="top"><input type="checkbox" name="x_paypal_disable" value="1" #%paypal_disable_checked%#></td>
+</tr>
+#%hide_paypal_disable_end%#
+#%field_captcha_test%#
+<tr><td align="center" colspan=2><input type="submit" value="Submit" name="B1" class="button10"></td></tr>
+</table>
+</form>
+
+

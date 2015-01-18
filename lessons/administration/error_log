@@ -1,0 +1,3 @@
+[21-May-2013 11:47:53] PHP Parse error:  syntax error, unexpected '>' in /home/violinpr/public_html/lessons/administration/categories.php on line 125
+[21-May-2013 11:53:22] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/violinpr/public_html/lessons/administration/categories.php on line 57
+[21-May-2013 11:53:22] PHP Parse error:  syntax error, unexpected '<' in /home/violinpr/public_html/lessons/administration/categories.php on line 57

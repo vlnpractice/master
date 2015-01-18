@@ -1,0 +1,25 @@
+<tr>
+<td align="left" valign="top" width="40">#%n%#</td>
+<td align="left"><b>#%title%#</b><br>
+#%description%#<br>
+<span class="text10">
+<b>Extra features:</b> #%extra_features%#
+#%hide_ad_links_begin%#
+<br>
+[<a target="_blank" href="#%details_url%#">Classified ad URL</a>]&nbsp;
+[<a class="link10" href="#%site_url%#/user.php?action=ad_edit&n=#%n%#">Edit this classified ad</a>]&nbsp;
+[<a class="link10" href="#%site_url%#/user.php?action=ad_features_edit&n=#%n%#">Edit extra features</a>]&nbsp;
+[<a class="link10" href="#%site_url%#/user.php?action=ad_statistic&n=#%n%#">Statistic</a>]&nbsp;
+[<a class="link10" href="javascript:go_to_delete('It will delete this ad. Are you sure?','#%site_url%#/user.php?action=ad_delete&n=#%n%#')">Delete</a>]&nbsp;
+#%hide_ad_links_end%#
+#%hide_enable_paypal_begin%#
+<br><b>This ad is disabled because someone clicked to its paypal button. You can [<a class="link10" href="#%site_url%#/user.php?action=ad_paypal_enable&n=#%n%#">click here</a>] to re-enable it.</b>
+#%hide_enable_paypal_end%#
+<br></span>
+</td>
+<td align="left" valign="top" width="220" nowrap><span class="text10">
+This classified ad is #%active%#<br>
+Date created: #%created%#<br>
+Valid until: #%valid_by%#<br>
+</span></td>
+</tr>

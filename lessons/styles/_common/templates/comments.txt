@@ -1,0 +1,8 @@
+
+<div class="common_div1"><table border="0" width="100%" cellpadding="5" cellspacing="0" class="inside_table">
+<tr><td align="left"><span class="text_bold">Comments</td></tr>
+#%comments%#
+<tr><td align="left"><a href="#a_enter_comment" onclick="show_hide_div_id(0,'comments_show_box#%what%##%n%#'); show_hide_div_id(1,'enter_comment_box#%what%##%n%#');">Enter comment</a></td></tr>
+</table>
+</div>
+

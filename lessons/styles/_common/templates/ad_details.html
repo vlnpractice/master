@@ -1,0 +1,140 @@
+#%head%#
+
+
+
+
+
+  
+
+
+<table cellspacing="0" cellpadding="0" border=0 style="table-layout:fixed;">
+<tr>
+<td style="width:250px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="250" height="1"></td>
+<td style="width:750px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="750" height="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" style="width:250px;">
+
+#%in1%#
+
+</td>
+<td class="cell_middle">
+#%info%#
+
+<div class="common_div_title">#%title%#</div>
+<div class="common_div"><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top">
+
+<a name="details_menu"></a>
+<table cellspacing="0" cellpadding="0" width="100%" border="0"><tr><td align="left" valign="top">
+<div id="ddtabs1" class="item_detail_menu">
+<ul>
+<li><a href="javascript:show_submenu('details_submenu_1');">Basic Info</a></li>
+#%hide_videos_begin%#<li><a href="javascript:show_submenu('details_submenu_2');">Video</a></li>#%hide_videos_end%#
+#%hide_files_begin%#<li><a href="javascript:show_submenu('details_submenu_3');">Files</a></li>#%hide_files_end%#
+<li><a href="javascript:show_submenu('details_submenu_6');">Tell friend</a></li>
+<li><a href="javascript:show_submenu('details_submenu_7');">Report abuse</a></li>
+<li><a href="javascript:show_submenu('details_submenu_8');">Contact</a></li>
+#%hide_for_no_user_begin%#<li><a href="javascript:show_submenu('details_submenu_10');">Private</a></li>#%hide_for_no_user_end%#
+</ul>
+</div>
+</td></tr></table>
+
+<DIV class="menu_container" style="padding:15px;">
+
+<div id="details_submenu_1" style="display:block;">
+<div class="common_div1"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+<tr><td align="left" valign="top" class="cell_embosed1" colspan="2"><div style="float:right; display: #%icons_div_display%#;">#%icons%#</div><b>#%description%#</b><br /></td></tr>
+#%hide_phones_begin%#<tr><td align="left" valign="top" class="cell_embosed1" colspan="2">Phones: #%phones%#</td></tr>#%hide_phones_end%#
+#%hide_usit_begin%#<tr><td align="left" valign="top" class="cell_embosed1" colspan="2">#%user_defined%#</td></tr>#%hide_usit_end%#
+#%hide_price_begin%#<tr><td align="left" valign="top" class="cell_embosed1" colspan="2"><span class="text_bold">Price: #%currency%##%price%#</span></td></tr>#%hide_price_end%#
+#%hide_ad_type_begin%#<tr><td align="left" valign="top" class="cell_embosed1" colspan="2"><span class="text_bold">Ad type: #%ad_type%#</span></td></tr>#%hide_ad_type_end%#
+#%hide_paypal_button_begin%#<td align="center" nowrap" colspan="2" class="cell_embosed1">#%paypal_button%#</td></tr>#%hide_paypal_button_end%#
+<tr><td align="left" valign="top" class="cell_embosed1" colspan="2">#%detail%#<br /></td></tr>
+<tr>
+<td align="left" valign="top" class="cell_embosed1"><img border="0" src="#%site_url%#/images/pdf.gif">&nbsp;<a href="#%site_url%#/pdf.php?what=l&amp;n=#%n%#" target="_blank">PDF</a></td>
+#%hide_url_begin%#<td align="left" valign="top" class="cell_embosed1"><img border="0" src="#%site_url%#/images/icon_related_url.png">&nbsp;<a target="_blank" href="#%url%#">Related site</a></td>#%hide_url_end%#
+</tr>
+#%hide_tags_begin%#<tr><td align="left" valign="top" class="cell_embosed1" colspan="2"><span class="text_bold">Tags:</span> #%tags%#</td></tr>#%hide_tags_end%#
+<tr>
+<td align="left" valign="top" class="cell_embosed1" colspan="2">Bookmark and share this page:  &nbsp; 
+<a href="http://www.furl.net/storeIt.jsp?t=#%title%#&u=#%this_url%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/furl.gif" alt="Furl"></a>&nbsp;
+<a href="http://del.icio.us/post?v=4&noui&jump=close&url=#%this_url%#&title=#%title%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/delicious.gif" alt="Delicious"></a>&nbsp;
+<a href="http://reddit.com/submit?url=#%this_url%#&title=#%title%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/reddit.gif" alt="Reddit"></a>&nbsp;
+<a href="http://www.facebook.com/sharer.php?u=#%this_url%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/facebook.jpg" alt="Facebook"></a>&nbsp;
+<a href="http://technorati.com/faves?add=#%this_url%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/technorati.gif" alt="Technorati"></a>&nbsp;
+<a href="http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=#%this_url%#&Title=#%title%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/blinklist.gif" alt="BlinkList"></a>&nbsp;
+<a href="http://digg.com/submit?phase=2&url=#%this_url%#&title=#%title%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/digg.gif" alt="Digg"></a>&nbsp;
+<a href="http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=#%this_url%#&title=#%title%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/google.gif" alt="Google"></a>&nbsp;
+<a href="http://www.stumbleupon.com/submit?url=#%this_url%#&title=#%title%#" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/stumbleupon.gif" alt="StumbleUpon"></a>&nbsp;
+<a href="http://myweb.yahoo.com/myresults/bookmarklet?t=#%title%#&u=#%this_url%#&ei=UTF" target="_blank" style="text-decoration: none"><img border="0" src="#%site_url%#/images/social_bookmarks/yahoo.gif" alt="Yahoo"></a>&nbsp;
+</td>
+</tr>
+<tr><td align="center" valign="top" class="cell_embosed1" colspan="2">
+#%pictures_gallery%#
+</td></tr>
+#%hide_map_begin%#
+<tr><td align="center" valign="top" class="cell_embosed1" colspan="2">
+<iframe marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" style="width:750px; height:500px; border:0px;" frameborder="0" src="#%site_url%#/map.php?ad=#%map_n%#"></iframe>
+</td></tr>
+#%hide_map_end%#
+</table></div>
+</div>
+
+<div id="details_submenu_2" style="display:none;">
+<div class="common_div1"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="left" class="cell_embosed1">
+#%all_videos%#
+</td></tr>
+</table></div>
+</div>
+
+<div id="details_submenu_3" style="display:none;">
+<div class="common_div1"><table border="0" width="100%" cellpadding="0" cellspacing="0" class="inside_table">
+<tr><td align="left">
+#%all_files%#
+</td></tr>
+</table></div>
+</div>
+
+<div id="details_submenu_6" style="display:none;">
+<div id="tell_friend_box#%n%#">
+#%tell_friend_box%#
+</div>
+</div>
+
+<div id="details_submenu_7" style="display:none;">
+<div id="report_box#%n%#">
+#%report_box%#
+</div>
+</div>
+
+<div id="details_submenu_8" style="display:none;">
+<div id="contact_boxa#%n%#">
+#%contact_box%#
+</div>
+</div>
+
+<div id="details_submenu_10" style="display:none;">
+<div id="notes_edit_boxad#%n%#">
+#%notes_edit_box%#
+</div>
+<br>#%add_delete_favorites%#
+</div>
+
+
+</DIV>
+</div>
+</td></tr></table></div>
+
+
+<div align="center">
+#%edit_link%#
+
+
+
+</td>
+
+</tr></table>

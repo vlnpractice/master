@@ -1,0 +1,4 @@
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">#%item_name%# </td>
+<td align="left"><input maxlength="#%field_maxlength%#" size="60" name="#%field_name%#" value="#%field_value%#" class="field10" style="width:600px;"></td>
+</tr>

@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=#%charset%#">
+<title>Gold Classifieds</title>
+<LINK href="styles.css" rel=StyleSheet>
+<script type="text/javascript" src="../files/javascripts.js"></script>
+<script type="text/javascript">
+var pathToCalImages = '../images/calendar/';
+var pathToLightboxImages = '../images/';
+</script>
+<script type="text/javascript" src="../files/calendar.js"></script>
+<LINK href="../files/calendar.css" rel=StyleSheet>
+<LINK href="../files/shared.css" rel=StyleSheet>
+</head>
+
+<body>
+<div align="center">

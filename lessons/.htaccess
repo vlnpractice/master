@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule index\.html index.php [NC]
+RewriteRule index_offer\.html index.php?vars=offer [NC]
+RewriteRule index_wanted\.html index.php?vars=wanted [NC]
+RewriteRule index_all\.html index.php?vars=all [NC]
+RewriteRule category\-(.*) index.php?vars=/categories-$1 [NC]
+RewriteRule ads\-(.*)\/ classified.php?vars=ad_details-$1 [NC]
+RewriteRule extra_category\/(.*) category.php?action=$1 [NC]
+RewriteRule user-(.*)\/(.*)\.html users.php?n=$1 [L]

@@ -1,0 +1,15 @@
+Subject: Your Classified Ad
+
+Thank you for your submission. Your classified ad has been approved and is visible on our pages.
+Number: #%n%#
+Title: #%title%#
+Description: #%description%#
+Detailed entry: #%detail%#
+Ad type: #%ad_type%#
+Name: #%name%#
+Email: #%email%#
+Public phone 1: #%pub_phone1%#
+Public phone 2: #%pub_phone2%#
+URL: #%url%#
+Category: #%categories_titles%#
+Area: #%areas_titles%#

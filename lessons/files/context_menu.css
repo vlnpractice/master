@@ -1,0 +1,19 @@
+	
+.tree{
+	margin:0px;
+	padding:0px;
+}
+.tree ul{	/* Sub menu groups */
+	margin-left:18px;	/* Left spacing */
+	padding-left:0px;
+	display:none;	/* Initially hide sub nodes */
+}
+.tree li{
+	list-style-type:none;
+	vertical-align:middle;	
+	font-size: 12px;padding-bottom:3px;
+}
+.tree li a:link, .tree li a:visited, .tree li a:active, .tree li a:hover {
+	text-decoration:none;
+	padding-left:4px;
+}

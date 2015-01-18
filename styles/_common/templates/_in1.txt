@@ -1,0 +1,31 @@
+<div class="div_left_right_main">
+
+<div style="display:#_show_div_user_#;width:100%;margin:10px;">
+<form method="GET" action="#%site_url%#/user.php">
+<select class="field10" name="action" onchange="this.form.submit()">
+<option value="user_subscription">YOUR ACCOUNT</option>
+<option value="user_subscription">Subscription</option>
+<option value="user_edit">Edit your data</option>
+<option value="user_favorites">Bookmarks</option>
+<option value="user_log_off">Log off</option>
+</select>
+</form>
+</div>
+
+<div class="div_left_right_small" style="display:#_category_tree_div_#;">
+<div class="div_left_right_small_inside">
+#_category_tree_#
+</div>
+</div>
+
+<div>
+<script type="text/javascript"><!--
+document.write('<s'+'cript type="text/javascript" src="http://www.classicalmusiccity.com/amp/show.php?z=32&j=1&code='+new Date().getTime()+'"></s'+'cript>'); 
+// --></script>
+<noscript>
+<iframe src="http://www.classicalmusiccity.com/amp/show.php?z=32" width="160" height="600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+</noscript>
+</div>
+
+</div>
+

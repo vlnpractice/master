@@ -1,0 +1,76 @@
+
+#%head%#
+
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" border=0 style="table-layout:fixed;">
+<tr>
+<td style="width:250px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="250" height="1"></td>
+<td style="width:750px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="750" height="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" style="width:250px;">
+
+#%in1%#
+
+</td>
+<td class="cell_middle">
+#%info%#
+
+<table border="0" cellspacing="0" cellpadding="4" width="100%">
+<tr><td align="center">
+
+<div class="common_div_title">Overall Statistic</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="5" cellspacing="0">
+<tr>
+<td nowrap align="left" width="23%" class="cell_embosed1"><span class="text10">&nbsp;</span></td>
+<td nowrap align="center" width="23%" class="cell_embosed1"><span class="text10"><b>Views</b></span></td>
+<td nowrap align="center" width="23%" class="cell_embosed1"><span class="text10"><b>Views of details page</b></span></td>
+<td nowrap align="center" width="23%" class="cell_embosed1"><span class="text10"><b>Ratio</b></span></td>
+<td nowrap align="center" width="23%" class="cell_embosed1"><span class="text10">&nbsp;</span></td>
+</tr>
+<tr>
+<td nowrap align="left" class="cell_embosed1"><span class="text10">Total</td>
+<td nowrap align="center" class="cell_embosed10">#%statistic_i%#</td>
+<td nowrap align="center" class="cell_embosed10">#%statistic_i_detail%#</td>
+<td nowrap align="center" class="cell_embosed10">#%statistic_r%#%</td>
+<td nowrap align="center" class="cell_embosed10">&nbsp;</td>
+</tr>
+<tr>
+<td nowrap align="left" class="cell_embosed1"><span class="text10">Since #%last_reset%#</td>
+<td nowrap align="center" class="cell_embosed10">#%statistic_reset_i%#</td>
+<td nowrap align="center" class="cell_embosed10">#%statistic_reset_i_detail%#</td>
+<td nowrap align="center" class="cell_embosed10">#%statistic_reset_r%#%</td>
+<td nowrap align="center" class="cell_embosed10"><a href="user.php?action=ad_reset_statistic&n=#%n%#">Reset this statistic</a></td>
+</tr>
+</table>
+</div>
+
+<br>
+
+<div class="common_div_title">Statistic - #%month_name%# #%year%#</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="5" cellspacing="0">
+<tr>
+<td nowrap align="left" width="30" class="cell_embosed1"><span class="text10"><b>Day</b></span></td>
+<td nowrap align="center" class="cell_embosed1" style="text-align:center"><span class="text10"><b>Views of details page</b></span></td>
+</tr>
+#%statistic_days%#
+<tr class="cell_embosed1">
+<td nowrap align="left" class="cell_embosed1"><span class="text10"><b>Total&nbsp;</b></span></td>
+<td nowrap align="center" class="cell_embosed1"><span class="text10"><b>#%days_i_detail%#</b></span></td>
+</tr>
+<tr><td nowrap align="center" colspan="4" class="cell_embosed10"><a href="#%previous_month%#">[Previous month]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#%next_month%#">[Next month]</a></td></tr>
+</table>
+
+</td></tr></table>
+</div>
+
+</td>
+
+</tr></table>
+
+

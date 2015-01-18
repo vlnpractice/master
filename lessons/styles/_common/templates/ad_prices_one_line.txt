@@ -1,0 +1,12 @@
+<tr>
+<td align="left" class="cell_embosed1" nowrap><span class="text10">#%days%# days</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%ad%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%bold%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%featured%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%home_page%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%featured_gallery%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%highlight%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%paypal%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%xtra_10_pictures%#</span></td>
+<td align="center" class="cell_embosed1" nowrap><span class="text10">#%xtra_10_files%#</span></td>
+</tr>

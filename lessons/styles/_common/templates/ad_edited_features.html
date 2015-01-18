@@ -1,0 +1,67 @@
+
+#%head%#
+
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" border=0 style="table-layout:fixed;">
+<tr>
+<td style="width:250px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="250" height="1"></td>
+<td style="width:750px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="750" height="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" style="width:250px;">
+
+#%in1%#
+
+</td>
+<td class="cell_middle">
+#%info%#
+
+<form action="#%site_url%#/user.php" method="post">
+<input type="hidden" name="action" value="ad_features_edited_confirmed">
+<input type="hidden" name="n" value="#%n%#">
+
+<div class="common_div_title">Summary of Your Order</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="inside_table">
+#%hidden_fields%#
+<tr>
+<td align="left" valign="top" nowrap>Ad number </td>
+<td align="left" valign="top" nowrap>#%n%#</td>
+</tr>
+<tr>
+<td align="left" valign="top" nowrap>Title </td>
+<td align="left" valign="top" nowrap>#%title%#</td>
+</tr>
+<tr>
+<td align="left" valign="top" nowrap>Ordered features</td>
+<td align="left" valign="top" nowrap>#%ordered_features%#</td>
+</tr>
+<tr>
+<td align="left" valign="top" nowrap>Payment period</td>
+<td align="left" valign="top" nowrap>#%period%# days</td>
+</tr>
+<tr>
+<td align="left" valign="top" nowrap>Amount to pay</td>
+<td align="left" valign="top" nowrap>#%currency%##%price%#</td>
+</tr>
+<tr><td align="center" colspan=2><input type="submit" value="Continue" name="B1" class="button10"></td></tr>
+</table>
+</td></tr></table>
+</div>
+
+</form>
+
+
+#%prices_table%#
+
+</td>
+
+</tr></table>
+
+

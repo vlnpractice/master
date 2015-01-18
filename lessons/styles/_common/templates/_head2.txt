@@ -1,0 +1,55 @@
+
+<div id="container" align="center">
+<div id="content">
+
+<div class="main_div">
+
+<div class="top_div">
+<table class="top_table" cellpadding="0" cellspacing="0" width="100%" border=0>
+<td align="left" valign="top" nowrap style="padding:20px;"><a href="#%site_url%#/"><img border="0" src="#%logo_url%#"></a></td>
+<td align="right" style="padding:10px;"><div id="top_search_form"><div style="padding-bottom:15px;">
+
+<a href="https://www.facebook.com/violinpractice"><img border="0" src="/images/facebook.png"></a>
+<a href="https://twitter.com/ViolinPractice"><img border="0" src="/images/twitter.png"></a>
+<a href="http://www.linkedin.com/company/violinpractice-com"><img border="0" src="/images/linkedin.png"></a>
+
+</div>
+</div>
+
+<a name="search_form"></a>
+<table cellspacing=0 cellpadding=5 width="300" border=0>
+<tr><td align="left" valign="middle" nowrap>Search</td></tr>
+<tr><td align="left" valign="middle" nowrap>
+<div id="simple_search_div_1">
+<form method="get" action="#%lug_site_url%#/search.php">
+<input name="phrase" maxlength=120 class="field10" value="#%original_phrase%#" style="width:240px;">
+<input type="submit" value="Go" name="B1" class="button10" style="width:50px;">
+</form>
+</div>
+</td></tr>
+</table>
+
+
+</td>
+</tr>
+</td></tr></table>
+</div>
+
+
+#%menu%#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="main_table">
+<tr><td align="center">

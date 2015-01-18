@@ -1,0 +1,5 @@
+Subject: Your Subscription
+
+This is a reminder that your subscription will be automatcally renewed on #%renew_date%#.
+
+#%site_url%#

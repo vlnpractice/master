@@ -1,0 +1,6 @@
+Subject: Your Membership
+
+Welcome to ViolinPractice.com. To confirm your membership, please go to .
+#%confirm_url%#
+
+Please confirm your membership as soon as possible. Unconfirmed memberships are automatically deleted after #%days%# days.

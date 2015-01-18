@@ -1,0 +1,7 @@
+Subject: Your Classified Ad
+
+Someone clicked to your paypal button and your ad has been disabled.
+Number: #%n%#
+Title: #%title%#
+
+You can re-enable it in our users area at #%site_url%#/user.php.

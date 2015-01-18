@@ -1,0 +1,1 @@
+<div class="sleek_slide" data-caption="#%title_no_tag%#" data-description="#%short_description%#" image-src="#%image_1%#" data-link="#%item_details_url%#"></div>

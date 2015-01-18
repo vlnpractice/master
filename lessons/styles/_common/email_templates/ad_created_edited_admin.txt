@@ -1,0 +1,20 @@
+Subject: Classified Ad Created/Edited
+
+A classified ad has been #%created_edited%#. If you want review it, you have to go to #%site_url%#/administration/.
+#%admin_queue_info%#
+Number: #%n%#
+Title: #%title%#
+Description: #%description%#
+Detailed entry: #%detail%#
+Ad type: #%ad_type%#
+Name: #%name%#
+Email: #%email%#
+Public phone 1: #%pub_phone1%#
+Public phone 2: #%pub_phone2%#
+URL: #%url%#
+Category: #%categories_titles%#
+Area: #%areas_titles%#
+
+Owner's number: #%owner_n%#
+Name: #%owner_name%#
+Email: #%owner_email%#

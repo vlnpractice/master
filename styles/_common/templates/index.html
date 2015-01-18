@@ -1,0 +1,108 @@
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('#scrollbar3').tinyscrollbar({ axis: 'x'});
+});
+</script>
+
+
+<script type="text/javascript">
+<!--
+img1 = new Image(); img1.src = "#%site_url%#/images/icon_folder_1.gif";
+img2 = new Image(); img2.src = "#%site_url%#/images/icon_folder_2.gif";
+img3 = new Image(); img3.src = "#%site_url%#/images/icon_folder_3.gif";
+img4 = new Image(); img4.src = "#%site_url%#/images/icon_folder_4.gif";
+img5 = new Image(); img5.src = "#%site_url%#/images/icon_folder_5.gif";
+-->
+</script>
+
+#%head%#
+
+<br style="line-height:5px" />
+
+<script type="text/javascript" src="#%site_url%#/files/jssor.slider.mini.js"></script>
+<script>
+jQuery(document).ready(function ($) {
+var _SlideshowTransitions = [
+//Fade
+{ $Duration: 1200, $Opacity: 2 }
+];
+
+var options = {
+    $SlideDuration: 2000,        //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+    $DragOrientation: 3,        //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+    $AutoPlay: true,            //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+    $AutoPlayInterval: 2000,    //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+    $SlideshowOptions: {        //[Optional] Options to specify and enable slideshow or not
+    $Class: $JssorSlideshowRunner$,     //[Required] Class to create instance of slideshow
+    $Transitions: _SlideshowTransitions,//[Required] An array of slideshow transitions to play slideshow
+    $TransitionsOrder: 1,               //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+    $ShowLink: true            //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+    }
+};
+var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+});
+</script>
+
+<table cellspacing="0" cellpadding="0" style="width:1000px;table-layout:fixed;">
+<tr>
+<td style="width:645px;padding:0px;margin:0px;" align="left">
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 645px;
+        height: 401px;">
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 645px; height: 401px;overflow: hidden;">
+           #%slideshow_images%#
+        </div>
+    </div>
+    </td>
+<td style="width:355px;height:401px;padding:0px;margin:0px;" align="left">
+<div style="width:355px;height:401px;background-color:#140A1F;">
+<div style="padding:10px;font-size:20px;color:#FFFFFF;">WELCOME TO<br>VIOLINPRACTICE.COM</div>
+<div style="padding:10px;font-size:13px;color:#FFFFFF;">#%site_news%#</div>
+</td>
+</tr>
+</table>
+
+<br style="line-height:5px" />
+
+<table cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+<tr>
+<td width="230" style="width:230px;height:1px;padding:0px;margin:0px;line-height:1px;" class="left_column"><img border="0" src="#%site_url%#/images/blank.gif" width="230" height="1"></td>
+<td width="770" style="width:770px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="50" height="1"></td>
+</tr>
+<tr>
+<td>
+
+#%in4%#
+
+
+</td>
+<td class="cell_middle" style="padding:0px;">
+
+<table cellspacing="0" cellpadding="0" style="width:770px;table-layout:fixed;">
+<tr>
+<td style="height:1px;padding:0px;margin:0px;" align="left"><a href="http://www.violinpractice.com/Video/lets-practice/index.html"><img border="0" src="#%site_url%#/images/index1.png" width="246"></a></td>
+<td style="height:1px;padding:0px;margin:0px;" align="center"><a href="http://www.violinpractice.com/Video/instructional-video/index.html"><img border="0" src="#%site_url%#/images/index2.png" width="245"></a></td>
+<td style="height:1px;padding:0px;margin:0px;" align="right"><a href="http://www.violinpractice.com/Violin-Articles-14/phyllis-freeman.html"><img border="0" src="#%site_url%#/images/index3.png" width="246"></a></td>
+</tr>
+</table>
+<br>
+
+<div class="common_div_main_videos">
+<div class="common_div_title">Featured ViolinPractice Method Videos</div>
+#%featured_videos1%#
+</div>
+
+<div class="common_div_main_videos">
+<div class="common_div_title">Featured ViolinPractice Pedagogy Videos</div>
+#%featured_videos2%#
+</div>
+
+
+</td>
+
+</tr></table>
+
+
+
+

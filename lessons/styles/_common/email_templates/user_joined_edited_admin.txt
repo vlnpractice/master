@@ -1,0 +1,12 @@
+Subject: User #%action%#
+
+Email: #%email%#
+Name: #%name%#
+Company: #%company%#
+Address 1: #%address1%#
+Address 2: #%address2%#
+Address 3: #%address3%#
+Country: #%country%#
+Phone 1: #%phone1%#
+Phone 2: #%phone2%#
+Site URL: #%url%#

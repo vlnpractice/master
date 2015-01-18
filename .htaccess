@@ -1,0 +1,55 @@
+RewriteEngine On
+RewriteRule page\/(.*)\.html page.php?page=$1 [L]
+RewriteRule Links\/(.*)\.html links.php?vars=$1 [L]
+RewriteRule Links\/(.*)\/ links.php?vars=$1 [L]
+RewriteRule Links\/(.*) links.php?vars=$1 [L]
+RewriteRule Violin-Links-(.*)\/ link.php?vars=$1 [L]
+RewriteRule Articles\/(.*)\.html articles.php?vars=$1 [L]
+RewriteRule Articles\/(.*)\/ articles.php?vars=$1 [L]
+RewriteRule Articles\/(.*) articles.php?vars=$1 [L]
+RewriteRule Violin-Articles-(.*)\/ article.php?vars=$1 [L]
+RewriteRule Video\/(.*)\.html videos.php?vars=$1 [L]
+RewriteRule Video\/(.*)\/ videos.php?vars=$1 [L]
+RewriteRule Video\/(.*) videos.php?vars=$1 [L]
+RewriteRule Violin-Video-(.*)\/ video.php?vars=$1 [L]
+RewriteRule Print-Out\/(.*)\.html news.php?vars=$1 [L]
+RewriteRule Print-Out\/(.*)\/ news.php?vars=$1 [L]
+RewriteRule Print-Out\/(.*) news.php?vars=$1 [L]
+RewriteRule Violin-Print-Out-(.*)\/ new.php?vars=$1 [L]
+RewriteRule Blogs\/(.*)\.html blogs.php?vars=$1 [L]
+RewriteRule Blogs\/(.*)\/ blogs.php?vars=$1 [L]
+RewriteRule Blogs\/(.*) blogs.php?vars=$1 [L]
+RewriteRule Violin-Blogs-(.*)\/ blog.php?vars=$1 [L]
+RewriteRule search\/(.*) search.php?vars=$1 [L]
+RewriteRule search_rss\/(.*) search.php?rss=$1 [L]
+RewriteRule user-(.*)\/(.*)\.html users.php?action=user_info&n=$1 [L]
+RewriteRule index\.html index.php [L]
+RewriteRule ^links.html$ index1.php?what=l [L]
+RewriteRule ^articles.html$ index1.php?what=a [L]
+RewriteRule ^video.html$ index1.php?what=v [L]
+AddType application/octet-stream .pdf
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 91.224.141.146
+deny from 64.187.224.60
+deny from 178.208.83.13
+deny from 91.218.228.191
+deny from 178.208.83.41
+deny from 85.249.230.108
+deny from 85.25.255.179
+deny from 64.187.225.237
+deny from 23.88.105.181
+deny from 178.63.218.64
+deny from 91.221.36.147
+
+<IfModule mod_suphp.c>
+ suPHP_ConfigPath /home/violinpr
+ <Files php.ini>
+   order allow,deny
+   deny from all
+ </Files>
+</IfModule>

@@ -1,0 +1,11 @@
+<tr>
+<td align="left" valign="top"><a name="areas_tree_top"></a>Areas <br>Select maximum #%max%# areas<br><span class="text10">It's recommended to select an area in the last level. Then your ad will appear in the area and all its parent areas.<br></span></td>
+<td align="left" valign="top">
+<ul id="areas_tree" class="tree">
+#%areas_tree%#
+</ul>
+<a href="#" onclick="expandAll('areas_tree');return false">Expand all</a>
+<a href="#" onclick="collapseAll('areas_tree');return false">Collapse all</a>
+</td>
+</tr>
+

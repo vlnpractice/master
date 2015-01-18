@@ -1,0 +1,13 @@
+<div style="display:block;margin-bottom:10px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table_item">
+<tr>
+<td class="table_item_top_cell" colspan="2"><a href="#%item_details_url%#">#%title%#</a></td>
+</tr>
+<tr>
+<td>#%hide_pictures_begin%#<a href="#%item_details_url%#"><img border="0" src="#%image_1%#" alt="#%title_no_tag%#" style="float: left; margin: 0px 5px 0px 0px;"></a>#%hide_pictures_end%#
+#%description%#<br />
+</td>
+
+</tr>
+</table>
+</div>

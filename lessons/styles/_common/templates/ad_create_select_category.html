@@ -1,0 +1,51 @@
+
+#%head%#
+
+
+
+
+
+
+<link rel="stylesheet" href="#%site_url%#/files/context_menu.css" type="text/css">
+<script type="text/javascript">
+var imageFolder = '#%site_url%#/images/';
+</script>
+<script type="text/javascript" src="#%site_url%#/files/context-menu-folder-tree.js"></script>
+<script type="text/javascript" src="#%site_url%#/files/context-menu.js"></script>
+
+<table cellspacing="0" cellpadding="0" border=0 style="table-layout:fixed;">
+<tr>
+<td style="width:250px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="250" height="1"></td>
+<td style="width:750px;height:1px;padding:0px;margin:0px;line-height:1px;"><img border="0" src="#%site_url%#/images/blank.gif" width="750" height="1"></td>
+</tr>
+<tr>
+<td align="left" valign="top" style="width:250px;">
+
+#%in1%#
+
+</td>
+<td class="cell_middle">
+#%info%#
+
+<form action="#%site_url%#/user.php" method="get">
+<input type="hidden" name="action" value="ad_create">
+
+<div class="common_div_title">Select A Category</div>
+<div class="common_div"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center">
+<table border="0" width="100%" cellspacing="0" cellpadding="2" class="inside_table">
+<tr><td align="left">
+#%categories_select%#
+</td></tr>
+<tr><td align="center"><input type="submit" value="Continue" name="B1" class="button10"></td></tr>
+</table>
+</td></tr></table>
+</div>
+
+</form>
+
+</td>
+
+</tr></table>
+
+

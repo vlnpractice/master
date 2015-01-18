@@ -1,0 +1,8 @@
+Subject: Gold Classifieds Login Failed
+
+Someone tried to log in Gold Classifieds with incorrect login data.
+This person attempted to enter #%who%# area
+Email: #%email%#
+Entered password: #%password%#
+IP address: #%ip%#
+Date and time: #%date_time%#

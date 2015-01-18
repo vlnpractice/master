@@ -1,0 +1,27 @@
+<div class="div_left_right_small">
+<form method="get" action="#%site_url%#/search.php">
+<input type="hidden" name="action" value="ads_one_category">
+<div class="div_left_right_small_topcell"><img alt="" src="#%site_url%#/images/icon_search_small.png" style="margin-bottom:-3px;">&nbsp;Search</div>
+<div class="div_left_right_small_inside">
+<p>Search for</p>
+<p><input name="phrase" style="width:180px" maxlength=50 class="field10" value="#_original_phrase_#"></p>
+<p>Search type</p>
+<p><select class="select10" name="search_kind"><option value="and"#_kind_selected_and_#>All words</option><option value="or"#_kind_selected_or_#>Any word</option><option value="phrase"#_kind_selected_phrase_#>Exact phrase</option></select></p>
+#%hide_offer_wanted_begin%#
+<p><select class="select10" name="offer_wanted"><option value="0">Offer & Wanted</option><option value="offer"#_offer_wanted_offer_#>Offer</option><option value="wanted"#_offer_wanted_wanted_#>Wanted</option></select></p>
+#%hide_offer_wanted_end%#
+<p>In category</p>
+<p><select class="select10" name="category" style="width:180px">#%search_categories_select%#</select></p>
+<p>Area</p>
+<p><select class="select10" name="area_boss" style="width:180px">#%first_areas_select%#</select></p>
+#%hide_price_begin%#
+<p>Price <select class="select10" name="price_mark"><option value="more_equal"#_price_selected_more_equal_#>>=</option><option value="equal"#_price_selected_equal_#>=</option><option value="less_equal"#_price_selected_less_equal_#><=</option></select> <input name="price" size=7 maxlength=10 class="field10" value="#_price_#"></p>
+#%hide_price_end%#
+#%search_user_fields%#
+<p>Per page <select class="select10" name="perpage"><option value="10"#_perpage_selected_10_#>10</option><option value="20"#_perpage_selected_20_#>20</option><option value="50"#_perpage_selected_50_#>50</option><option value="100"#_perpage_selected_100_#>100</option></select></p>
+<p>Order by <select class="select10" name="order_by">#%order_by_options%#</select></p>
+<p><select class="select10" name="direction"><option value="asc"#_direction_selected_asc_#>Ascending</option><option value="desc"#_direction_selected_desc_#>Descending</option></select></p>
+<p><input type="submit" value="Search" name="B1" class="button10"></p>
+</div>
+</form>
+</div>

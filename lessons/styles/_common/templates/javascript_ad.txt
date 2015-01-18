@@ -1,0 +1,4 @@
+<tr><td align="left">
+<a href="#%url%#">#%title%#</a><br>
+#%description%#<br>
+</td></tr>

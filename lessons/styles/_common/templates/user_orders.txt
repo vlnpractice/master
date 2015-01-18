@@ -1,0 +1,8 @@
+<tr>
+<td align="left" valign="top" width="40">#%n%#</td>
+<td align="left"><a target="_blank" href="#%ad_url%#">#%ad_title%#</b></a></td>
+<td align="left" valign="top">#%currency%##%price%#</td>
+<td align="center" valign="top">#%date%#</td>
+<td align="center" valign="top">#%paid%#</td>
+<td align="center" valign="top">#%pdf%#</td>
+</tr>

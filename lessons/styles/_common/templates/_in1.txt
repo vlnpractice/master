@@ -1,0 +1,71 @@
+<div class="div_left_right_main">
+
+#_hide_for_user_begin_#
+<div class="div_left_right_small" style="border:1px solid #ACC7F2;display:none;">
+<div class="div_left_right_small_topcell">MEMBER LOGIN</div>
+<div class="div_left_right_small_inside">
+<div id="user_login_div" align="center">
+#_user_login_form_lug_#
+</div>
+<div align="center"><a href="/user.php" style="font-size:15px;">Join now for free</a></div>
+</div>
+</div>
+#_hide_for_user_end_#
+
+
+
+<div class="div_left_right_small">
+<div class="div_left_right_small_topcell">Share this page</div>
+<div class="div_left_right_small_inside">
+#_share_it_#
+</div>
+</div>
+
+
+
+#_hide_offer_wanted_begin_#
+<div class="div_left_right_small">
+<div class="div_left_right_small_topcell">NAVIGATION</div>
+<div class="div_left_right_small_inside">
+#_offer_wanted_#
+</div>
+</div>
+#_hide_offer_wanted_end_#
+
+#_hide_categories_begin_#
+<div class="div_left_right_small">
+<div class="div_left_right_small_topcell">Categories</div>
+<div class="div_left_right_small_inside">
+<p><img alt="" src="#%site_url%#/images/icon_folder_main.png" style="margin-bottom:-3px;">&nbsp;<a class="link10" href="#_url_all_categories_#">#_ALL_CATEGORIES_#</a></p>
+#_categories_#
+</div>
+</div>
+#_hide_categories_end_#
+
+#_hide_areas_begin_#
+<div class="div_left_right_small">
+<div class="div_left_right_small_topcell">Areas</div>
+<div class="div_left_right_small_inside">
+<p #_hide_all_areas_#><img alt="" src="#%site_url%#/images/icon_folder_main.png" style="margin-bottom:-3px;">&nbsp;<a class="link10" href="#_url_all_areas_#">#_ALL_AREAS_#</a></p>
+#_areas_#
+</div>
+</div>
+#_hide_areas_end_#
+
+
+<div class="div_left_right_small">
+<div class="div_left_right_small_topcell"><img alt="" src="#%site_url%#/images/icon_top_tags.gif" style="margin-bottom:-3px;">&nbsp;&nbsp;Top Tags</div>
+<div class="div_left_right_small_inside">
+<div style="overflow:hidden;width:230px;padding:5px;">
+#%top_tags%#
+</div>
+</div>
+</div>
+
+
+
+<div class="div_left_right_small" align="center">
+<p>#_qrimage_#</p>
+</div>
+
+</div>

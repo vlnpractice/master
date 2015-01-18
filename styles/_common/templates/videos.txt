@@ -1,0 +1,9 @@
+<div class="sleek_container" id="sleek_light1">
+<div id="sleek_viewport" class="sleek_viewport" style="height:300px;">
+<div class="sleek_slider">
+#%items%#
+</div>
+</div>
+<a id="left_btn" class="sleek_nav">Previous Slide</a>
+<a id="right_btn" class="sleek_nav right_btn">Next Slide</a>
+</div>

@@ -1,0 +1,4 @@
+#%text%#<br>
+Comment by #%author%#<br>
+Date: #%date%#
+<br>

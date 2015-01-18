@@ -1,0 +1,5 @@
+Subject: Your Classified Ad
+
+Your ad expired
+Number: #%n%#
+Title: #%title%#

@@ -1,0 +1,4 @@
+<td align="left" valign="top" width="#%width%#%" class="cell_embosed1">
+<img alt="" src="#%folder_icon%#">&nbsp;<a href="#%url%#"><b>#%title%#</b></a>
+<br />#%description%#
+</td>

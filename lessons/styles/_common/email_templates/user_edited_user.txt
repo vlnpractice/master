@@ -1,0 +1,13 @@
+Subject: Your account's data edited
+
+This is a security email to inform you that your account's data have been edited. If you haven't edited this data, please iform us as soon as possible.
+Email: #%email%#
+Name: #%name%#
+Company: #%company%#
+Address 1: #%address1%#
+Address 2: #%address2%#
+Address 3: #%address3%#
+Country: #%country%#
+Phone 1: #%phone1%#
+Phone 2: #%phone2%#
+Site URL: #%url%#

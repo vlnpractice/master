@@ -1,0 +1,15 @@
+#%info%#
+<table cellspacing="0" cellpadding="0" width="100%" border=0>
+<tr><td class="table_left_right_small_topcell" align="left" nowrap><img alt="" src="#%site_url%#/images/icon_poll.png">&nbsp;&nbsp;Our Poll</td></tr>
+<tr><td align="left">
+<table cellspacing="0" cellpadding="0" class="table_left_right_small_inside">
+<tr><td align="left" class="table_left_right_small_cell"><b>#%question%#</b></td></tr>
+<tr><td align="left" nowrap class="table_left_right_small_cell">#%graph_1%#</a></td></tr>
+<tr><td align="left" nowrap class="table_left_right_small_cell">#%graph_2%#</a></td></tr>
+<tr><td align="left" nowrap class="table_left_right_small_cell">#%graph_3%#</a></td></tr>
+<tr style="display:#%display4%#"><td align="left" nowrap class="table_left_right_small_cell">#%graph_4%#</a></td></tr>
+<tr style="display:#%display5%#"><td align="left" nowrap class="table_left_right_small_cell">#%graph_5%#</a></td></tr>
+<tr><td align="left" nowrap class="table_left_right_small_cell">
+<b>Total votes: #%votes%#</b>
+</td></tr></table>
+</td></tr></table>

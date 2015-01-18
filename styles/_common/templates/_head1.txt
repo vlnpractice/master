@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=#%charset%#">
+<title>#%meta_title%#</title>
+<meta name="description" content="#%meta_description%#">
+<meta name="keywords" content="#%meta_keywords%#">
+<script type="text/javascript">
+var site_url = "#%site_url%#";
+image1 = new Image();
+image1.src = "#%site_url%#/images/waiting.gif";
+</script>
+<script type="text/javascript" src="#%site_url%#/files/javascripts.js"></script>
+<LINK href="#%site_url%#/files/shared.css" rel=StyleSheet>
+<LINK href="#%site_url%#/styles/#%css_style%#/styles.css" rel="StyleSheet">
+#%head_pagination%#
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="#%site_url%#/files/jquery.tinyscrollbar.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('#scrollbar2').tinyscrollbar({ axis: 'x'});
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48641836-1', 'violinpractice.com');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="#%site_url%#/files/teaser/js/jquery.sleekteaser.js"></script>
+<script src="#%site_url%#/files/teaser/js/jquery.reference.js"></script>
+<link href="#%site_url%#/files/teaser/css/sleekteaser.css" rel="stylesheet" />
+<script type="text/javascript" language="javascript">
+	$(window).load(function(){
+		var tb=$("#sleek_light1").sleekteaser({
+			width:700,
+			num_carousel:4,
+			responsive:true,
+			swipe:true,
+			keyboard:true,
+			skin:'light'
+		});
+		var tb=$("#sleek_light2").sleekteaser({
+			width:700,
+			num_carousel:4,
+			responsive:true,
+			swipe:true,
+			keyboard:true,
+			skin:'light'
+		});
+		var tb=$("#sleek_light3").sleekteaser({
+			width:700,
+			num_carousel:4,
+			responsive:true,
+			swipe:true,
+			keyboard:true,
+			skin:'light'
+		});
+	});
+</script>
+
+</head>
+<body>
+<a name="page_top"></a>
+<div align="center">

@@ -1,0 +1,57 @@
+
+<div id="container" align="center">
+
+<!-- Header Component -->
+<div class="vp-Header">
+  <div class="vp-Header-content">
+    <div class="top_div">
+    <table class="top_table" cellpadding="0" cellspacing="0" width="100%" border=0>
+    <td align="left" valign="top" nowrap style="padding:20px;"><a href="#%site_url%#/"><img border="0" src="#%logo_url%#"></a></td>
+    <td align="right" valign="middle" style="padding:10px;vertical-align:middle;">
+    <a name="search_form"></a>
+    <form method="get" action="#%site_url%#/search.php">
+    <table cellspacing=0 cellpadding=5 width="300" border=0>
+    <tr>
+    <td align="right" valign="middle" nowrap colspan=2 style="font-size:20px;color:#000000;">
+    #%hide_for_user_begin%#
+    <a href="#%site_url%#/user.php" style="font-size:20px;color:#000000;">LOG IN</a>
+    /
+    <a href="#%site_url%#/user.php?action=user_join" style="font-size:20px;color:#000000;">JOIN</a>
+    #%hide_for_user_end%#
+    #%hide_for_no_user_begin%#
+    <a href="#%site_url%#/user.php?action=user_log_off" style="font-size:20px;color:#000000;">LOG OUT</a>
+    #%hide_for_no_user_end%#
+    </td>
+    </tr>
+    <tr>
+    <td align="right" valign="middle" nowrap>
+    <input name="phrase" maxlength=120 class="field13" value="#%original_phrase%#" style="width:240px;" onClick="if (this.value=='SEARCH') this.value='';">
+    </td>
+    <td align="right" valign="middle" nowrap>
+    <input type="submit" value="GO" name="B1" class="button13" style="width:50px;">
+    </td>
+    </tr>
+    </table>
+    </form>
+    </td>
+    </tr>
+    </td></tr></table>
+    </div>
+  </div>
+</div>
+<!-- /end -->
+
+<!-- Toolbar Component -->
+<div class="vp-Toolbar">
+  <div class="vp-Toolbar-content">#%menu%#</div>
+</div>
+<!-- /end -->
+
+<!-- Main Content Component -->
+<div class="vp-MainContent">
+<div class="main_div">
+<div id="contact_box0" style="display:none;width:700px;height:500px;position:absolute;left:200px;top:150px;z-index:100;">#%contact_site_box%#</div>
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="main_table">
+<tr><td align="center">

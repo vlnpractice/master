@@ -1,0 +1,33 @@
+
+#%info%#
+
+<div id="contact_form_wait#%what%##%n%#" name="contact_form_wait#%what%##%n%#"></div>
+
+<form method="post" id="contact_form#%what%##%n%#" name="contact_form#%what%##%n%#" action="javascript:parse_ajax_request(document.getElementById('contact_form#%what%##%n%#'),'#%site_url%#/contact.php','contact_box#%what%##%n%#');">
+<input type="hidden" name="what" value="#%what%#">
+<input type="hidden" name="n" value="#%n%#">
+<input type="hidden" name="hide_cancel" value="#%hide_cancel%#">
+
+<div class="common_div1"><table border="0" width="100%" cellpadding="5" cellspacing="0" class="inside_table">
+<tr><td align="left" colspan="2"><span class="text_bold">Contact Form</span></td></tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Message </td>
+<td align="left"><textarea class="field10" name="message" rows="15" style="width:600px;height:250px;">#%message%#</textarea></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Your Name </td>
+<td align="left" valign="top"><input class="field10" maxlength="255" style="width:600px;" name="name" value="#%name%#"></td>
+</tr>
+<tr>
+<td nowrap align="left" valign="top" style="width:200px;">Email </td>
+<td align="left" valign="top"><input class="field10" maxlength="255" style="width:600px;"  name="email" value="#%email%#"></td>
+</tr>
+#%field_captcha_test%#
+<tr>
+ <td align="center" colspan=2><input type="submit" value="Submit" name="B1" class="button10" onclick="show_waiting('contact_form_wait#%what%##%n%#');">#%hide_cancel_begin%#&nbsp;<input type="reset" value="Cancel" onclick="show_hide_div_id(0,'contact_box#%what%##%n%#')" class="button10">#%hide_cancel_end%#</td>
+</tr>
+</table>
+</div>
+
+</form>
+

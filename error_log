@@ -1,0 +1,27 @@
+[15-May-2013 16:10:57] PHP Fatal error:  Out of memory (allocated 3670016) (tried to allocate 30720 bytes) in /home/violinpr/public_html/administration/f.php on line 541
+[01-Jun-2013 10:03:07] PHP Parse error:  syntax error, unexpected T_ECHO in /home/violinpr/public_html/administration/f.php on line 77
+[01-Jun-2013 10:03:08] PHP Parse error:  syntax error, unexpected T_ECHO in /home/violinpr/public_html/administration/f.php on line 77
+[01-Jun-2013 10:03:09] PHP Parse error:  syntax error, unexpected T_ECHO in /home/violinpr/public_html/administration/f.php on line 77
+[01-Jun-2013 10:03:24] PHP Parse error:  syntax error, unexpected T_ECHO in /home/violinpr/public_html/administration/f.php on line 77
+[01-Jun-2013 10:03:26] PHP Parse error:  syntax error, unexpected T_ECHO in /home/violinpr/public_html/administration/f.php on line 77
+[01-Jun-2013 10:04:42] PHP Parse error:  syntax error, unexpected $end, expecting '(' in /home/violinpr/public_html/administration/f.php on line 69
+[01-Jun-2013 10:06:20] PHP Parse error:  syntax error, unexpected $end in /home/violinpr/public_html/common.php on line 1073
+[18-Dec-2013 12:18:03] PHP Fatal error:  Call to undefined function  replace_array_text() in /home/violinpr/public_html/poll.php on line 20
+[04-Feb-2014 12:46:30] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/violinpr/public_html/common.php on line 841
+[04-Feb-2014 12:46:39] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/violinpr/public_html/common.php on line 841
+[04-Feb-2014 12:46:46] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/violinpr/public_html/common.php on line 841
+[10-Jul-2014 06:25:38] PHP Fatal error:  Call to undefined function  check_access_rights() in /home/violinpr/public_html/common.php on line 219
+[10-Jul-2014 06:27:32] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/violinpr/public_html/common.php on line 293
+[10-Jul-2014 06:27:33] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/violinpr/public_html/common.php on line 293
+[10-Jul-2014 06:27:35] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/violinpr/public_html/common.php on line 293
+[10-Jul-2014 06:27:35] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/violinpr/public_html/common.php on line 293
+[10-Jul-2014 06:27:40] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/violinpr/public_html/common.php on line 293
+[26-Jul-2014 11:08:35] PHP Parse error:  syntax error, unexpected $end in /home/violinpr/public_html/administration/functions.php on line 2746
+[09-Aug-2014 05:29:48] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/violinpr/public_html/common.php on line 588
+[09-Aug-2014 05:29:51] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/violinpr/public_html/common.php on line 588
+[09-Aug-2014 05:29:52] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/violinpr/public_html/common.php on line 588
+[09-Aug-2014 05:30:31] PHP Parse error:  syntax error, unexpected T_ELSE in /home/violinpr/public_html/common.php on line 593
+[13-Sep-2014 10:58:01] PHP Parse error:  syntax error, unexpected $end in /home/violinpr/public_html/administration/functions.php on line 1965
+[25-Sep-2014 06:55:46] PHP Parse error:  syntax error, unexpected $end in /home/violinpr/public_html/common.php on line 386
+[25-Sep-2014 06:59:53] PHP Parse error:  syntax error, unexpected $end in /home/violinpr/public_html/common.php on line 671
+[12-Dec-2014 11:54:21] PHP Fatal error:  Call to undefined function  get_messages() in /home/violinpr/public_html/new.php on line 20
