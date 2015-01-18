@@ -1,4 +1,9 @@
 # ignore sftp/ftp configuration file in sublime text
 sftp-config.json
 
+# ignore data.php which is used to configure your environment
+data/data.php
+lessons/data.php
+
 # ignore large files due to Github max file size of 100 megabytes
+student practice pages/
